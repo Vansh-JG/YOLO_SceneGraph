@@ -1,0 +1,52 @@
+[
+  {
+    "subject": "car_0",
+    "relation": "left of",
+    "object": "car_1"
+  },
+  {
+    "subject": "car_0",
+    "relation": "left of",
+    "object": "car_2"
+  },
+  {
+    "subject": "car_0",
+    "relation": "left of",
+    "object": "car_3"
+  },
+  {
+    "subject": "car_0",
+    "relation": "left of",
+    "object": "car_4"
+  },
+  {
+    "subject": "car_1",
+    "relation": "left of",
+    "object": "car_2"
+  },
+  {
+    "subject": "car_1",
+    "relation": "left of",
+    "object": "car_3"
+  },
+  {
+    "subject": "car_1",
+    "relation": "left of",
+    "object": "car_4"
+  },
+  {
+    "subject": "car_2",
+    "relation": "left of",
+    "object": "car_3"
+  },
+  {
+    "subject": "car_4",
+    "relation": "left of",
+    "object": "car_2"
+  },
+  {
+    "subject": "car_4",
+    "relation": "left of",
+    "object": "car_3"
+  }
+]

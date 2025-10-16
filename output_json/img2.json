@@ -1,0 +1,423 @@
+{
+  "image_id": "img2.jpg",
+  "objects": [
+    {
+      "id": 0,
+      "name": "car",
+      "bbox": [
+        0,
+        163,
+        203,
+        268
+      ]
+    },
+    {
+      "id": 1,
+      "name": "car",
+      "bbox": [
+        443,
+        147,
+        639,
+        269
+      ]
+    },
+    {
+      "id": 2,
+      "name": "car",
+      "bbox": [
+        389,
+        177,
+        452,
+        219
+      ]
+    },
+    {
+      "id": 3,
+      "name": "car",
+      "bbox": [
+        297,
+        171,
+        376,
+        236
+      ]
+    },
+    {
+      "id": 4,
+      "name": "traffic light",
+      "bbox": [
+        389,
+        41,
+        404,
+        74
+      ]
+    },
+    {
+      "id": 5,
+      "name": "car",
+      "bbox": [
+        373,
+        182,
+        399,
+        208
+      ]
+    },
+    {
+      "id": 6,
+      "name": "traffic light",
+      "bbox": [
+        259,
+        105,
+        266,
+        124
+      ]
+    },
+    {
+      "id": 7,
+      "name": "traffic light",
+      "bbox": [
+        167,
+        140,
+        177,
+        155
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "subject_id": 0,
+      "object_id": 1,
+      "predicate": "next to",
+      "predicate_id": 3
+    },
+    {
+      "subject_id": 0,
+      "object_id": 2,
+      "predicate": "next to",
+      "predicate_id": 3
+    },
+    {
+      "subject_id": 0,
+      "object_id": 3,
+      "predicate": "next to",
+      "predicate_id": 3
+    },
+    {
+      "subject_id": 0,
+      "object_id": 4,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 0,
+      "object_id": 5,
+      "predicate": "next to",
+      "predicate_id": 3
+    },
+    {
+      "subject_id": 0,
+      "object_id": 6,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 0,
+      "object_id": 7,
+      "predicate": "stopped at",
+      "predicate_id": 7
+    },
+    {
+      "subject_id": 1,
+      "object_id": 0,
+      "predicate": "on",
+      "predicate_id": 0
+    },
+    {
+      "subject_id": 1,
+      "object_id": 2,
+      "predicate": "on",
+      "predicate_id": 0
+    },
+    {
+      "subject_id": 1,
+      "object_id": 3,
+      "predicate": "on",
+      "predicate_id": 0
+    },
+    {
+      "subject_id": 1,
+      "object_id": 4,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 1,
+      "object_id": 5,
+      "predicate": "on",
+      "predicate_id": 0
+    },
+    {
+      "subject_id": 1,
+      "object_id": 6,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 1,
+      "object_id": 7,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 2,
+      "object_id": 0,
+      "predicate": "on",
+      "predicate_id": 0
+    },
+    {
+      "subject_id": 2,
+      "object_id": 1,
+      "predicate": "next to",
+      "predicate_id": 3
+    },
+    {
+      "subject_id": 2,
+      "object_id": 3,
+      "predicate": "on",
+      "predicate_id": 0
+    },
+    {
+      "subject_id": 2,
+      "object_id": 4,
+      "predicate": "stopped at",
+      "predicate_id": 7
+    },
+    {
+      "subject_id": 2,
+      "object_id": 5,
+      "predicate": "behind",
+      "predicate_id": 5
+    },
+    {
+      "subject_id": 2,
+      "object_id": 6,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 2,
+      "object_id": 7,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 3,
+      "object_id": 0,
+      "predicate": "on",
+      "predicate_id": 0
+    },
+    {
+      "subject_id": 3,
+      "object_id": 1,
+      "predicate": "next to",
+      "predicate_id": 3
+    },
+    {
+      "subject_id": 3,
+      "object_id": 2,
+      "predicate": "next to",
+      "predicate_id": 3
+    },
+    {
+      "subject_id": 3,
+      "object_id": 4,
+      "predicate": "stopped at",
+      "predicate_id": 7
+    },
+    {
+      "subject_id": 3,
+      "object_id": 5,
+      "predicate": "next to",
+      "predicate_id": 3
+    },
+    {
+      "subject_id": 3,
+      "object_id": 6,
+      "predicate": "stopped at",
+      "predicate_id": 7
+    },
+    {
+      "subject_id": 3,
+      "object_id": 7,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 4,
+      "object_id": 0,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 4,
+      "object_id": 1,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 4,
+      "object_id": 2,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 4,
+      "object_id": 3,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 4,
+      "object_id": 5,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 4,
+      "object_id": 6,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 4,
+      "object_id": 7,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 5,
+      "object_id": 0,
+      "predicate": "on",
+      "predicate_id": 0
+    },
+    {
+      "subject_id": 5,
+      "object_id": 1,
+      "predicate": "next to",
+      "predicate_id": 3
+    },
+    {
+      "subject_id": 5,
+      "object_id": 2,
+      "predicate": "next to",
+      "predicate_id": 3
+    },
+    {
+      "subject_id": 5,
+      "object_id": 3,
+      "predicate": "in front of",
+      "predicate_id": 4
+    },
+    {
+      "subject_id": 5,
+      "object_id": 4,
+      "predicate": "stopped at",
+      "predicate_id": 7
+    },
+    {
+      "subject_id": 5,
+      "object_id": 6,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 5,
+      "object_id": 7,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 6,
+      "object_id": 0,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 6,
+      "object_id": 1,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 6,
+      "object_id": 2,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 6,
+      "object_id": 3,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 6,
+      "object_id": 4,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 6,
+      "object_id": 5,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 6,
+      "object_id": 7,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 7,
+      "object_id": 0,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 7,
+      "object_id": 1,
+      "predicate": "on",
+      "predicate_id": 0
+    },
+    {
+      "subject_id": 7,
+      "object_id": 2,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 7,
+      "object_id": 3,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 7,
+      "object_id": 4,
+      "predicate": "below",
+      "predicate_id": 2
+    },
+    {
+      "subject_id": 7,
+      "object_id": 5,
+      "predicate": "above",
+      "predicate_id": 1
+    },
+    {
+      "subject_id": 7,
+      "object_id": 6,
+      "predicate": "below",
+      "predicate_id": 2
+    }
+  ]
+}
